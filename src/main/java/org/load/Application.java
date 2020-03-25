@@ -27,7 +27,7 @@ public class Application {
 
         for (int i = 1; i < loadLoopsCount + 1; i++) {
             System.out.println("\n" + i + " loop");
-            new LoadTest(threadCount, 1_000, task).start(); //100 000 requests add when do test
+            new LoadTest(threadCount, 1_000, task).start();
         }
     }
 
