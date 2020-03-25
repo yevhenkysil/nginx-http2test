@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.load'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.httpcomponents', name: 'fluent-hc', version: '4.5.12'
+
+}
